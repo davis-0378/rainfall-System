@@ -1,0 +1,42 @@
+svg#taiwan-map {
+    width: 800px;
+    height: 650px;
+  }
+  
+  svg path {
+    stroke: rgb(216, 216, 216);
+    stroke-width: 0.1px;
+    fill: rgba(173, 181, 189, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  svg#taiwan-map {
+    display: inline;
+  }
+  
+  svg#taiwan-map path {
+    stroke-width: 1px;
+  }
+  
+  svg#taiwan-map path:hover {
+    fill: rgba(173, 181, 189, 0.5);
+    transform: translate(-3px, -3px);
+  }
+  
+  svg path {
+    stroke: rgb(216, 216, 216);
+    stroke-width: 0.1px;
+    fill: #49505793;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  svg path:hover {
+    fill: rgba(173, 181, 189, 0.5);
+  }/*# sourceMappingURL=index.css.map */
+
+  svg {
+    width: 800px;
+    height: 600px;
+  }
